@@ -1,0 +1,125 @@
+\hypertarget{class_airport}{}\doxysection{Airport Class Reference}
+\label{class_airport}\index{Airport@{Airport}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_airport_aabc7c7cedcd7057accdba5aa25bcf703}\label{class_airport_aabc7c7cedcd7057accdba5aa25bcf703}} 
+\mbox{\hyperlink{class_administration}{Administration}} $\ast$ {\bfseries get\+Manager} () const
+\item 
+\mbox{\Hypertarget{class_airport_addf78e58c0262eb692bd83fce0cba5d5}\label{class_airport_addf78e58c0262eb692bd83fce0cba5d5}} 
+void {\bfseries set\+Manager} (\mbox{\hyperlink{class_administration}{Administration}} $\ast$manager)
+\item 
+\mbox{\Hypertarget{class_airport_af56c563c0177cd3909ac7a7d7765f5dd}\label{class_airport_af56c563c0177cd3909ac7a7d7765f5dd}} 
+\mbox{\hyperlink{class_location}{Location}} $\ast$ {\bfseries get\+Location} () const
+\item 
+\mbox{\Hypertarget{class_airport_ac9fe4fb94d9a4d5f3ff0c6ff2d1b2a74}\label{class_airport_ac9fe4fb94d9a4d5f3ff0c6ff2d1b2a74}} 
+void {\bfseries set\+Location} (\mbox{\hyperlink{class_location}{Location}} $\ast$location)
+\item 
+\mbox{\Hypertarget{class_airport_a9c7d41e61ca27ae1b51c6f34d6d84db2}\label{class_airport_a9c7d41e61ca27ae1b51c6f34d6d84db2}} 
+void {\bfseries vector\+Add\+Person} (\mbox{\hyperlink{class_person}{Person}} $\ast$p)
+\item 
+\mbox{\Hypertarget{class_airport_a23c23af42447b07aac50c168566d8ca3}\label{class_airport_a23c23af42447b07aac50c168566d8ca3}} 
+void {\bfseries table\+Add\+Old\+Person} (\mbox{\hyperlink{class_person}{Person}} $\ast$p)
+\item 
+\mbox{\Hypertarget{class_airport_aa44eb7ec12ae66881aaae3e4d310bd95}\label{class_airport_aa44eb7ec12ae66881aaae3e4d310bd95}} 
+void {\bfseries vector\+Add\+Plane} (\mbox{\hyperlink{class_plane}{Plane}} $\ast$p)
+\item 
+\mbox{\Hypertarget{class_airport_a1532590dc9ca9c52fa1a81b444353cf6}\label{class_airport_a1532590dc9ca9c52fa1a81b444353cf6}} 
+const vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ \& {\bfseries get\+People} () const
+\item 
+\mbox{\Hypertarget{class_airport_a357ffeb7dc908876d10e1b1c5621b334}\label{class_airport_a357ffeb7dc908876d10e1b1c5621b334}} 
+const vector$<$ \mbox{\hyperlink{class_plane}{Plane}} $\ast$ $>$ \& {\bfseries get\+Planes} () const
+\item 
+\mbox{\Hypertarget{class_airport_a30238a23eff5e570814259ce591043ad}\label{class_airport_a30238a23eff5e570814259ce591043ad}} 
+const tab\+H\+People \& {\bfseries get\+All\+Workers} () const
+\item 
+\mbox{\Hypertarget{class_airport_ac2cb2657d73ca9edd92e12fffcf8e49c}\label{class_airport_ac2cb2657d73ca9edd92e12fffcf8e49c}} 
+void {\bfseries set\+All\+Workers} (const tab\+H\+People \&all\+Workers)
+\item 
+\mbox{\Hypertarget{class_airport_a46ac76ef1fd4c2e11168ae32cf303296}\label{class_airport_a46ac76ef1fd4c2e11168ae32cf303296}} 
+bool {\bfseries operator$<$} (const \mbox{\hyperlink{class_airport}{Airport}} \&rhs) const
+\item 
+\mbox{\Hypertarget{class_airport_a3086a716bb31f43c4dacd4ac953c76c2}\label{class_airport_a3086a716bb31f43c4dacd4ac953c76c2}} 
+void \mbox{\hyperlink{class_airport_a3086a716bb31f43c4dacd4ac953c76c2}{add\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Function that adds a \mbox{\hyperlink{class_person}{Person}} to the vector people of an object of the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_a846817ab3e3f61ff7a44dea54680c0c5}\label{class_airport_a846817ab3e3f61ff7a44dea54680c0c5}} 
+void \mbox{\hyperlink{class_airport_a846817ab3e3f61ff7a44dea54680c0c5}{remove\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Function that shows on console the information of each member of People vector from an object of the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_acf32cd8401d86eef673a73281ae9d682}\label{class_airport_acf32cd8401d86eef673a73281ae9d682}} 
+void \mbox{\hyperlink{class_airport_acf32cd8401d86eef673a73281ae9d682}{update\+Person}} ()
+\begin{DoxyCompactList}\small\item\em Function that removes a chosen \mbox{\hyperlink{class_person}{Person}} of the vector People from an object of the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_a055af50035909c89c197dae0427ee37e}\label{class_airport_a055af50035909c89c197dae0427ee37e}} 
+void \mbox{\hyperlink{class_airport_a055af50035909c89c197dae0427ee37e}{get\+All\+People}} ()
+\begin{DoxyCompactList}\small\item\em Function that updates person information from an object of the vector People from the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_a33d9becaf7b1a92d42c282f055a2c362}\label{class_airport_a33d9becaf7b1a92d42c282f055a2c362}} 
+void \mbox{\hyperlink{class_airport_a33d9becaf7b1a92d42c282f055a2c362}{add\+Plane}} ()
+\begin{DoxyCompactList}\small\item\em Function that adds plane to the vector planes of an object of the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_ad14b2b0c3f7ded352e82602cb8a75ad8}\label{class_airport_ad14b2b0c3f7ded352e82602cb8a75ad8}} 
+void \mbox{\hyperlink{class_airport_ad14b2b0c3f7ded352e82602cb8a75ad8}{remove\+Plane}} ()
+\begin{DoxyCompactList}\small\item\em Function that removes a chosen plane of the vector planes from an object of the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_ad94c8203d3865735bc7168ccf1e5bb3e}\label{class_airport_ad94c8203d3865735bc7168ccf1e5bb3e}} 
+void \mbox{\hyperlink{class_airport_ad94c8203d3865735bc7168ccf1e5bb3e}{update\+Plane}} ()
+\begin{DoxyCompactList}\small\item\em Function that updates plane information from an object of the vector planes from the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_a22e5c4a9609bbb332b2c84a82dfb29a7}\label{class_airport_a22e5c4a9609bbb332b2c84a82dfb29a7}} 
+void \mbox{\hyperlink{class_airport_a22e5c4a9609bbb332b2c84a82dfb29a7}{get\+All\+Planes}} ()
+\begin{DoxyCompactList}\small\item\em Function that shows on console the information of each member of planes vector from an object of the class \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_aac18c4325cfc62f4b8328dd81a980605}\label{class_airport_aac18c4325cfc62f4b8328dd81a980605}} 
+float {\bfseries Show\+Finances\+Workers} (string cat)
+\item 
+\mbox{\Hypertarget{class_airport_ae5140a878fbd1f9857c59d03df65b2bd}\label{class_airport_ae5140a878fbd1f9857c59d03df65b2bd}} 
+float {\bfseries Show\+Finances\+Planes} (string t)
+\item 
+\mbox{\Hypertarget{class_airport_a98f2a70fac8bcd3c787b76be622864be}\label{class_airport_a98f2a70fac8bcd3c787b76be622864be}} 
+float {\bfseries Airport\+Expenses\+Value} ()
+\item 
+int \mbox{\hyperlink{class_airport_a604d02b1eac029a4ed05f7dbea83f5db}{show\+Workers\+Record}} ()
+\begin{DoxyCompactList}\small\item\em Shows Workers Records in a Hash Table. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_airport_a8faa6fa4276f37a1a741e5da38f3bc06}\label{class_airport_a8faa6fa4276f37a1a741e5da38f3bc06}} 
+\mbox{\hyperlink{class_administration}{Administration}} $\ast$ {\bfseries manager}
+\item 
+\mbox{\Hypertarget{class_airport_af6d2d4fd7ff0d4955ce08924ac59b93a}\label{class_airport_af6d2d4fd7ff0d4955ce08924ac59b93a}} 
+\mbox{\hyperlink{class_location}{Location}} $\ast$ {\bfseries location}
+\item 
+\mbox{\Hypertarget{class_airport_af3f44a1eb9d53a6ef2b70080f3eb887e}\label{class_airport_af3f44a1eb9d53a6ef2b70080f3eb887e}} 
+vector$<$ \mbox{\hyperlink{class_person}{Person}} $\ast$ $>$ {\bfseries people}
+\item 
+\mbox{\Hypertarget{class_airport_a79abc4c3285261d573b421881f923f7e}\label{class_airport_a79abc4c3285261d573b421881f923f7e}} 
+vector$<$ \mbox{\hyperlink{class_plane}{Plane}} $\ast$ $>$ {\bfseries planes}
+\item 
+\mbox{\Hypertarget{class_airport_a4ec1f221de35d69836a6f94c1b1e2ac2}\label{class_airport_a4ec1f221de35d69836a6f94c1b1e2ac2}} 
+tab\+H\+People {\bfseries all\+Workers}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_airport_a95bf9431e97dd5485be8f49da66ae03d}\label{class_airport_a95bf9431e97dd5485be8f49da66ae03d}} 
+ostream \& {\bfseries operator$<$$<$} (ostream \&os, const \mbox{\hyperlink{class_airport}{Airport}} \&airport)
+\item 
+\mbox{\Hypertarget{class_airport_a511bb233e281f053a513305aee0873fb}\label{class_airport_a511bb233e281f053a513305aee0873fb}} 
+ostream \& {\bfseries operator$<$$<$} (ostream \&os, const \mbox{\hyperlink{class_airport}{Airport}} $\ast$airport)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_airport_a604d02b1eac029a4ed05f7dbea83f5db}\label{class_airport_a604d02b1eac029a4ed05f7dbea83f5db}} 
+\index{Airport@{Airport}!showWorkersRecord@{showWorkersRecord}}
+\index{showWorkersRecord@{showWorkersRecord}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{showWorkersRecord()}{showWorkersRecord()}}
+{\footnotesize\ttfamily int Airport\+::show\+Workers\+Record (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Shows Workers Records in a Hash Table. 
+
+\begin{DoxyReturn}{Returns}
+0 upon success, 1 upon failure 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+U. Porto/2 ano/1 semestre/\+Algoritmos e Estruturas de Dados/\+A\+E\+D\+A\+\_\+\+Project/\+A\+E\+D\+A\+\_\+\+Project/source/airport.\+h\item 
+D\+:/\+U. Porto/2 ano/1 semestre/\+Algoritmos e Estruturas de Dados/\+A\+E\+D\+A\+\_\+\+Project/\+A\+E\+D\+A\+\_\+\+Project/source/airport.\+cpp\end{DoxyCompactItemize}

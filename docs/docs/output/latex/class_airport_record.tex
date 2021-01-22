@@ -1,0 +1,107 @@
+\hypertarget{class_airport_record}{}\doxysection{Airport\+Record Class Reference}
+\label{class_airport_record}\index{AirportRecord@{AirportRecord}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_airport_record_a33147735c17bad6cca937b4dfd7e2a0c}\label{class_airport_record_a33147735c17bad6cca937b4dfd7e2a0c}} 
+{\bfseries Airport\+Record} (\mbox{\hyperlink{class_airport}{Airport}} $\ast$airport)
+\item 
+\mbox{\Hypertarget{class_airport_record_a55574ecb2ec036fb9bbf9ad6236bf850}\label{class_airport_record_a55574ecb2ec036fb9bbf9ad6236bf850}} 
+\mbox{\hyperlink{class_airport}{Airport}} $\ast$ {\bfseries get\+Airport} () const
+\item 
+\mbox{\Hypertarget{class_airport_record_adf33521d56557a189518dbf22fff64c4}\label{class_airport_record_adf33521d56557a189518dbf22fff64c4}} 
+void {\bfseries set\+Airport} (\mbox{\hyperlink{class_airport}{Airport}} $\ast$airport)
+\item 
+\mbox{\Hypertarget{class_airport_record_a52519d818f96131c58c25113cd7e1aa9}\label{class_airport_record_a52519d818f96131c58c25113cd7e1aa9}} 
+const string \& {\bfseries get\+Id} () const
+\item 
+\mbox{\Hypertarget{class_airport_record_a662d5ddb36586b12975dd1a2e82c2761}\label{class_airport_record_a662d5ddb36586b12975dd1a2e82c2761}} 
+void {\bfseries set\+Id} (const string \&id)
+\item 
+\mbox{\Hypertarget{class_airport_record_a9d54b269e361eaac3d6c9c4b334a2b68}\label{class_airport_record_a9d54b269e361eaac3d6c9c4b334a2b68}} 
+int {\bfseries get\+Count} () const
+\item 
+\mbox{\Hypertarget{class_airport_record_a9a0e3bc909747ba024b9760c98e94630}\label{class_airport_record_a9a0e3bc909747ba024b9760c98e94630}} 
+void {\bfseries set\+Count} (int count)
+\item 
+\mbox{\Hypertarget{class_airport_record_a4da4e381868d1f1314b3f335224d6791}\label{class_airport_record_a4da4e381868d1f1314b3f335224d6791}} 
+double {\bfseries get\+Track\+Hours} () const
+\item 
+\mbox{\Hypertarget{class_airport_record_ad3689e275d4870472ab923f579337754}\label{class_airport_record_ad3689e275d4870472ab923f579337754}} 
+void {\bfseries set\+Track\+Hours} (double tracks\+Hours)
+\item 
+void \mbox{\hyperlink{class_airport_record_a2957f07f044f5616b8215192928ee099}{add\+Track\+Hours}} (double track\+Hours)
+\begin{DoxyCompactList}\small\item\em Add track hours to the total track hours for the \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_airport_record_a5427e3253ee030774c79e7faf2c3461d}{add\+Track\+Hours}} (double flight\+Time, int unused)
+\begin{DoxyCompactList}\small\item\em Add track hours to the total track hours for the \mbox{\hyperlink{class_airport}{Airport}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_airport_record_ac1c166b3da01260133ce11785085f166}\label{class_airport_record_ac1c166b3da01260133ce11785085f166}} 
+double {\bfseries get\+Average\+Track\+Hours} () const
+\item 
+\mbox{\Hypertarget{class_airport_record_a920c5c451572ad182820732c4c1a6ae5}\label{class_airport_record_a920c5c451572ad182820732c4c1a6ae5}} 
+bool {\bfseries operator$<$} (const \mbox{\hyperlink{class_airport_record}{Airport\+Record}} \&rhs) const
+\item 
+\mbox{\Hypertarget{class_airport_record_a7a34a0e5040a7400004a1d36c83ae68d}\label{class_airport_record_a7a34a0e5040a7400004a1d36c83ae68d}} 
+bool {\bfseries operator==} (const \mbox{\hyperlink{class_airport_record}{Airport\+Record}} \&rhs) const
+\item 
+\mbox{\Hypertarget{class_airport_record_abf545d1c7dbc34d6c4c0ff8d6ca5e383}\label{class_airport_record_abf545d1c7dbc34d6c4c0ff8d6ca5e383}} 
+bool {\bfseries operator!=} (const \mbox{\hyperlink{class_airport_record}{Airport\+Record}} \&rhs) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_airport_record_ad51787fc4aaf2a1b06f4849dd03a2c61}\label{class_airport_record_ad51787fc4aaf2a1b06f4849dd03a2c61}} 
+\mbox{\hyperlink{class_airport}{Airport}} $\ast$ {\bfseries airport}
+\item 
+\mbox{\Hypertarget{class_airport_record_a00fc5526e440315cc7cef531d25032fa}\label{class_airport_record_a00fc5526e440315cc7cef531d25032fa}} 
+string {\bfseries id}
+\item 
+\mbox{\Hypertarget{class_airport_record_a137c30055436b1726b4ec8364be32de4}\label{class_airport_record_a137c30055436b1726b4ec8364be32de4}} 
+int {\bfseries count}
+\item 
+\mbox{\Hypertarget{class_airport_record_ace9e59af51201787582117444cd19637}\label{class_airport_record_ace9e59af51201787582117444cd19637}} 
+double {\bfseries track\+\_\+hours}
+\item 
+\mbox{\Hypertarget{class_airport_record_a982b12fc9317c0eaf5a92363afaa5f58}\label{class_airport_record_a982b12fc9317c0eaf5a92363afaa5f58}} 
+double {\bfseries average\+\_\+track\+\_\+time}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_airport_record_a5427e3253ee030774c79e7faf2c3461d}\label{class_airport_record_a5427e3253ee030774c79e7faf2c3461d}} 
+\index{AirportRecord@{AirportRecord}!addTrackHours@{addTrackHours}}
+\index{addTrackHours@{addTrackHours}!AirportRecord@{AirportRecord}}
+\doxysubsubsection{\texorpdfstring{addTrackHours()}{addTrackHours()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Airport\+Record\+::add\+Track\+Hours (\begin{DoxyParamCaption}\item[{double}]{flight\+Time,  }\item[{int}]{unused }\end{DoxyParamCaption})}
+
+
+
+Add track hours to the total track hours for the \mbox{\hyperlink{class_airport}{Airport}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flight\+Time} & -\/ flight time to calculate the time spent on track \\
+\hline
+{\em unused} & -\/ to differenciate from the other implementation \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_airport_record_a2957f07f044f5616b8215192928ee099}\label{class_airport_record_a2957f07f044f5616b8215192928ee099}} 
+\index{AirportRecord@{AirportRecord}!addTrackHours@{addTrackHours}}
+\index{addTrackHours@{addTrackHours}!AirportRecord@{AirportRecord}}
+\doxysubsubsection{\texorpdfstring{addTrackHours()}{addTrackHours()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Airport\+Record\+::add\+Track\+Hours (\begin{DoxyParamCaption}\item[{double}]{track\+Hours }\end{DoxyParamCaption})}
+
+
+
+Add track hours to the total track hours for the \mbox{\hyperlink{class_airport}{Airport}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em track\+Hours} & -\/ to be added to the total hours \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+U. Porto/2 ano/1 semestre/\+Algoritmos e Estruturas de Dados/\+A\+E\+D\+A\+\_\+\+Project/\+A\+E\+D\+A\+\_\+\+Project/source/airport.\+h\item 
+D\+:/\+U. Porto/2 ano/1 semestre/\+Algoritmos e Estruturas de Dados/\+A\+E\+D\+A\+\_\+\+Project/\+A\+E\+D\+A\+\_\+\+Project/source/airport.\+cpp\end{DoxyCompactItemize}

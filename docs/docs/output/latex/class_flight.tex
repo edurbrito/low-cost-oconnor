@@ -1,0 +1,103 @@
+\hypertarget{class_flight}{}\doxysection{Flight Class Reference}
+\label{class_flight}\index{Flight@{Flight}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_flight_a4958690a35f2c5e3287a3dcbac357407}\label{class_flight_a4958690a35f2c5e3287a3dcbac357407}} 
+{\bfseries Flight} (\mbox{\hyperlink{class_date}{Date}} date, \mbox{\hyperlink{class_hour}{Hour}} hour, \mbox{\hyperlink{class_location}{Location}} $\ast$departure, \mbox{\hyperlink{class_location}{Location}} $\ast$arrival, float duration, \mbox{\hyperlink{class_plane}{Plane}} $\ast$plane)
+\item 
+\mbox{\Hypertarget{class_flight_a8f491ffd75d5881ae61b64e382075dd6}\label{class_flight_a8f491ffd75d5881ae61b64e382075dd6}} 
+const \mbox{\hyperlink{class_date}{Date}} \& {\bfseries get\+Date} () const
+\item 
+\mbox{\Hypertarget{class_flight_a4ce19ad5a9a98ade55ccc7730612fa2e}\label{class_flight_a4ce19ad5a9a98ade55ccc7730612fa2e}} 
+void {\bfseries set\+Date} (const \mbox{\hyperlink{class_date}{Date}} \&date)
+\item 
+\mbox{\Hypertarget{class_flight_afc3867fe52992198dc65e3f2ed03b09b}\label{class_flight_afc3867fe52992198dc65e3f2ed03b09b}} 
+const \mbox{\hyperlink{class_hour}{Hour}} \& {\bfseries get\+Hour} () const
+\item 
+\mbox{\Hypertarget{class_flight_a73ffc3bdf9a6ab80ffe794aaad09b0b3}\label{class_flight_a73ffc3bdf9a6ab80ffe794aaad09b0b3}} 
+void {\bfseries set\+Hour} (const \mbox{\hyperlink{class_hour}{Hour}} \&hour)
+\item 
+\mbox{\Hypertarget{class_flight_ac4677d52b4cca230b205e3a7f5e7103f}\label{class_flight_ac4677d52b4cca230b205e3a7f5e7103f}} 
+\mbox{\hyperlink{class_location}{Location}} $\ast$ {\bfseries get\+Departure} () const
+\item 
+\mbox{\Hypertarget{class_flight_a4425f354e55141d6349ea3647ec1c3fb}\label{class_flight_a4425f354e55141d6349ea3647ec1c3fb}} 
+void {\bfseries set\+Departure} (\mbox{\hyperlink{class_location}{Location}} $\ast$departure)
+\item 
+\mbox{\Hypertarget{class_flight_a358a52f6058944acf6f4d3e22a183562}\label{class_flight_a358a52f6058944acf6f4d3e22a183562}} 
+\mbox{\hyperlink{class_location}{Location}} $\ast$ {\bfseries get\+Arrival} () const
+\item 
+\mbox{\Hypertarget{class_flight_a4106093189439fce99fc44749853b5f7}\label{class_flight_a4106093189439fce99fc44749853b5f7}} 
+void {\bfseries set\+Arrival} (\mbox{\hyperlink{class_location}{Location}} $\ast$arrival)
+\item 
+\mbox{\Hypertarget{class_flight_a591285fae9dced9afdc285dcde614133}\label{class_flight_a591285fae9dced9afdc285dcde614133}} 
+\mbox{\hyperlink{class_plane}{Plane}} $\ast$ {\bfseries get\+Plane} () const
+\item 
+\mbox{\Hypertarget{class_flight_a9959838694db189552d387d62353f801}\label{class_flight_a9959838694db189552d387d62353f801}} 
+void {\bfseries set\+Plane} (\mbox{\hyperlink{class_plane}{Plane}} $\ast$plane)
+\item 
+\mbox{\Hypertarget{class_flight_a73310e1a1e1045088761253b7bd3ed0c}\label{class_flight_a73310e1a1e1045088761253b7bd3ed0c}} 
+string {\bfseries get\+String\+State} () const
+\item 
+\mbox{\Hypertarget{class_flight_a0193092be556a26260f6583b4c6d1d73}\label{class_flight_a0193092be556a26260f6583b4c6d1d73}} 
+State {\bfseries get\+State} () const
+\item 
+\mbox{\Hypertarget{class_flight_a1439db3d1dedeb8d57b7d938f934d5da}\label{class_flight_a1439db3d1dedeb8d57b7d938f934d5da}} 
+void {\bfseries set\+State} (const State \&state)
+\item 
+\mbox{\Hypertarget{class_flight_acb2d88203d6f1211cf8fb75e57b8d46b}\label{class_flight_acb2d88203d6f1211cf8fb75e57b8d46b}} 
+float {\bfseries get\+Duration} () const
+\item 
+\mbox{\Hypertarget{class_flight_a9f3a6e14b259929d45f97296b0b7f5fb}\label{class_flight_a9f3a6e14b259929d45f97296b0b7f5fb}} 
+void {\bfseries set\+Duration} (float duration)
+\item 
+\mbox{\Hypertarget{class_flight_a09cb0769889e8745d0de29979bced125}\label{class_flight_a09cb0769889e8745d0de29979bced125}} 
+bool {\bfseries operator$<$} (const \mbox{\hyperlink{class_flight}{Flight}} \&rhs) const
+\item 
+\mbox{\Hypertarget{class_flight_ac836e2814b95fa36a93eb4546ceefb22}\label{class_flight_ac836e2814b95fa36a93eb4546ceefb22}} 
+const string \& {\bfseries get\+Id} () const
+\item 
+\mbox{\Hypertarget{class_flight_a2d8c47a14a236330d3584fe02a65d8f2}\label{class_flight_a2d8c47a14a236330d3584fe02a65d8f2}} 
+void {\bfseries set\+Id} (const string \&id)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_flight_ac079c017976a3444d12598e4e92d1252}\label{class_flight_ac079c017976a3444d12598e4e92d1252}} 
+\mbox{\hyperlink{class_date}{Date}} {\bfseries date}
+\item 
+\mbox{\Hypertarget{class_flight_aef76c7ec084d1e13be91cbd522ef34a8}\label{class_flight_aef76c7ec084d1e13be91cbd522ef34a8}} 
+\mbox{\hyperlink{class_hour}{Hour}} {\bfseries hour}
+\item 
+\mbox{\Hypertarget{class_flight_a6aa7f9cb1304fa32f7d817b8d6580175}\label{class_flight_a6aa7f9cb1304fa32f7d817b8d6580175}} 
+\mbox{\hyperlink{class_location}{Location}} $\ast$ {\bfseries departure}
+\item 
+\mbox{\Hypertarget{class_flight_a943925f8d7bae7e007c4cfa9032d1588}\label{class_flight_a943925f8d7bae7e007c4cfa9032d1588}} 
+\mbox{\hyperlink{class_location}{Location}} $\ast$ {\bfseries arrival}
+\item 
+\mbox{\Hypertarget{class_flight_abcc1c1e64696e2df8d3dfc5566a61bd5}\label{class_flight_abcc1c1e64696e2df8d3dfc5566a61bd5}} 
+\mbox{\hyperlink{class_plane}{Plane}} $\ast$ {\bfseries plane}
+\item 
+\mbox{\Hypertarget{class_flight_a986c86a8f8a6281236cac07a9b6b4c6a}\label{class_flight_a986c86a8f8a6281236cac07a9b6b4c6a}} 
+State {\bfseries state}
+\item 
+\mbox{\Hypertarget{class_flight_a8caf8fae46268625f57958f616a76787}\label{class_flight_a8caf8fae46268625f57958f616a76787}} 
+float {\bfseries duration}
+\item 
+\mbox{\Hypertarget{class_flight_a3bbf0e0f8011e218386b569f98efb0eb}\label{class_flight_a3bbf0e0f8011e218386b569f98efb0eb}} 
+string {\bfseries id}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_flight_a1ff4b40871a9190b736ff178c0337b14}\label{class_flight_a1ff4b40871a9190b736ff178c0337b14}} 
+ostream \& {\bfseries operator$<$$<$} (ostream \&os, const \mbox{\hyperlink{class_flight}{Flight}} \&flight)
+\item 
+\mbox{\Hypertarget{class_flight_a1c4e4b035e341a94fcb51765f23b8146}\label{class_flight_a1c4e4b035e341a94fcb51765f23b8146}} 
+ostream \& {\bfseries operator$<$$<$} (ostream \&os, const \mbox{\hyperlink{class_flight}{Flight}} $\ast$flight)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+U. Porto/2 ano/1 semestre/\+Algoritmos e Estruturas de Dados/\+A\+E\+D\+A\+\_\+\+Project/\+A\+E\+D\+A\+\_\+\+Project/source/flight.\+h\end{DoxyCompactItemize}
